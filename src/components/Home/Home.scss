@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+.home {
+  p,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0;
+    margin: 0;
+    color: #00fff7;
+  }
+  h1 {
+    font-size: 54px;
+    font-weight: 300;
+  }
+  .center {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .author {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 5vh;
+  }
+  .divider {
+    position: relative;
+    height: 20px;
+  }
+  .div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgba(250, 250, 250, 0.4), transparent);
+  }
+}

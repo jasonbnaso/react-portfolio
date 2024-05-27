@@ -1,0 +1,12 @@
+.custom-nav {
+    padding: 6vh 0;
+    .navbar-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+            max-width: 15vh;
+        }
+    }
+}

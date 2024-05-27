@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.829bb308.css",
+    "main.js": "/static/js/main.3a8d1722.js",
+    "static/media/papperplast.jpg": "/static/media/papperplast.53f12430584e5b41a060.jpg",
+    "static/media/nordicautoel.jpg": "/static/media/nordicautoel.1c5fffa3a9690427bbd1.jpg",
+    "static/media/abc.png": "/static/media/abc.e60f30cdfb37bf3e62db.png",
+    "static/media/phaser-logo.png": "/static/media/phaser-logo.c3b32abeffbae0f94f9b.png",
+    "static/media/furan-flex.png": "/static/media/furan-flex.9c561f4a7e5fe2d0cd24.png",
+    "static/media/lbglas.jpg": "/static/media/lbglas.0422bee766974f31df72.jpg",
+    "static/media/wordpress-logo.png": "/static/media/wordpress-logo.f596e4d737901ed1ac23.png",
+    "static/media/kmc.jpg": "/static/media/kmc.794c4d463f15f74a41a0.jpg",
+    "static/media/vodak.png": "/static/media/vodak.d21ab823b777f4c172b3.png",
+    "static/media/target-shoot.jpg": "/static/media/target-shoot.750c3467411798224a0c.jpg",
+    "static/media/davidnaso-designs.jpg": "/static/media/davidnaso-designs.8798240ad0698c48bc0f.jpg",
+    "static/media/sicatech.png": "/static/media/sicatech.c489938e6e3c3fd06e18.png",
+    "static/media/dalororederi.jpg": "/static/media/dalororederi.bde6b3fb7a1653dd04af.jpg",
+    "static/media/pokemon.jpg": "/static/media/pokemon.f8a1553578fecdf08fe6.jpg",
+    "static/media/haninge-taxi.jpg": "/static/media/haninge-taxi.53211e30efaafaf49528.jpg",
+    "static/media/soderkyl.jpg": "/static/media/soderkyl.03236c9c183756a2bd38.jpg",
+    "static/media/redovisa-resultat.jpg": "/static/media/redovisa-resultat.386ec8993cefc9295bc8.jpg",
+    "static/media/pokemon-logo.png": "/static/media/pokemon-logo.c15166a4c1ec265053d7.png",
+    "static/media/react-logo.png": "/static/media/react-logo.1e5639fdfd7c944093d3.png",
+    "static/media/grocery.png": "/static/media/grocery.a1a3582de94c34503e70.png",
+    "static/media/home-logo.png": "/static/media/home-logo.e0dad50b0a9159851c7b.png",
+    "index.html": "/index.html",
+    "main.829bb308.css.map": "/static/css/main.829bb308.css.map",
+    "main.3a8d1722.js.map": "/static/js/main.3a8d1722.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.829bb308.css",
+    "static/js/main.3a8d1722.js"
+  ]
+}

@@ -1,0 +1,205 @@
+@import "./styles/Variables.scss";
+
+.pokemon {
+  font-family: "Signika", sans-serif;
+
+  .poke-img {
+    width: 200px;
+    height: auto;
+  }
+  .logo {
+    width: auto;
+    height: 60px;
+  }
+  .card-wrapper.card-border {
+    border: $primary-yellow solid 25px;
+    border-radius: 20px;
+    background-color: $primary-peach;
+    min-height: 35rem;
+  }
+  .btn-primary {
+    background-color: #f6b592 !important;
+    border: none !important;
+    color: $primary-black !important;
+    box-shadow: inset 0 0 10px $primary-black;
+  }
+  button[disabled="disabled"],
+  button:disabled {
+    background-color: $primary-red !important;
+    cursor: no-drop;
+  }
+  .poke-name {
+    text-transform: capitalize;
+  }
+  .random-poke {
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .hitpoints {
+    color: $primary-red;
+    font-weight: semi-bold;
+    font-size: 28px;
+  }
+  .banner {
+    background-color: $primary-yellow;
+  }
+  .banner p {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .search-field {
+    padding: 5px 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .banner ul {
+    display: flex;
+    display: inline-flex;
+  }
+  .replay-btn {
+    width: 100%;
+    height: 100px;
+  }
+  /* Basic button styling */
+
+  .pulsingButton {
+    width: 220px;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 10px;
+    border: none;
+    background-color: #2d6ab4;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-size: 22px;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    color: $primary-yellow;
+    font-weight: 900;
+    border: $primary-yellow 4px solid;
+    transition: all 300ms ease-in-out;
+  }
+
+  /* Comment-out to have the button continue to pulse on mouseover */
+
+  a.pulsingButton:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+    color: #ffffff;
+  }
+
+  /* Animation */
+
+  @-webkit-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+  }
+
+  @-moz-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+  }
+
+  @-ms-keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+  }
+
+  @keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .filtered-pokes {
+    font-size: 26px;
+  }
+  .filtered-pokes-numbers {
+    color: $poke-blue;
+  }
+
+  .fade-appear,
+  .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  .fade-appear-active,
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 450ms linear 250ms;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
+  }
+}
